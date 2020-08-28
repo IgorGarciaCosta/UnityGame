@@ -46,7 +46,10 @@
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\scripts\apontarParaInimigo.cs" />
      <Compile Include="Assets\scripts\canhaoAtira.cs" />
+     <Compile Include="Assets\scripts\destroiObjeto.cs" />
      <Compile Include="Assets\scripts\giraItem.cs" />
+     <Compile Include="Assets\scripts\jogador.cs" />
+     <Compile Include="Assets\scripts\moveTiro.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
