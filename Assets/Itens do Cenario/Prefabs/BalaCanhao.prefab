@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: -6792733572159125041}
   - component: {fileID: 931983811177044955}
   - component: {fileID: -2133870013479875718}
+  - component: {fileID: -2497323889558958832}
+  - component: {fileID: -4389747679078865568}
   m_Layer: 0
   m_Name: BalaCanhao
   m_TagString: Untagged
@@ -154,3 +156,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tempoVida: 5
+--- !u!114 &-2497323889558958832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313463082041856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2e3282e466dff46bafa2962d1c193e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &-4389747679078865568
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313463082041856}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.50000006
+  m_Center: {x: 0, y: 0, z: 0}

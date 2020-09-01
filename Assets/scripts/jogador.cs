@@ -24,7 +24,7 @@ public class jogador : MonoBehaviour
     }
 
     void Update(){
-        print(pontuacao);
+        print(vidaAtual);
     }
 
 
