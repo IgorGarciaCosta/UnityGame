@@ -8,12 +8,14 @@ public class canhaoAtira : MonoBehaviour
     GameObject balaCanhao;
     [SerializeField]
     Transform disparador;
-    public float tempoEntreTiros = 3f;//atira a cada 3 segundos
+    public float tempoEntreTiros = 0.8f;//atira a cada 1 segundo
     private float cronometro =0;
 
-
+    jogador jogador;
 
     void Atirar(){//instacia uma balad de cahão na posição
+        //dá acesso às variáveis do obj jogador
+        jogador = GameObject.FindGameObjectWithTag("Player").GetComponent<jogador>();
         cronometro = 0;//a cada tiro o cronometro zera
         Instantiate(balaCanhao, disparador.position, disparador.rotation);
     }
@@ -23,8 +25,14 @@ public class canhaoAtira : MonoBehaviour
     {
         cronometro += Time.deltaTime;//incrementa 1 segundo ao tempo no cronometro
 
-        if(cronometro >=3){//passados 3 segundos, atirar
+        if(cronometro >=tempoEntreTiros){
             Atirar();
+        }
+        if(jogador.pontuacao >= 5){
+            tempoEntreTiros = 0.3f;
+        }
+        if(jogador.pontuacao >= 10){
+            tempoEntreTiros = 0.1f;
         }
     }
 }

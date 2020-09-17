@@ -51,6 +51,8 @@
      <Compile Include="Assets\scripts\giraItem.cs" />
      <Compile Include="Assets\scripts\jogador.cs" />
      <Compile Include="Assets\scripts\moveTiro.cs" />
+     <Compile Include="Assets\scripts\mudarCena.cs" />
+     <Compile Include="Assets\scripts\pausaJogo.cs" />
      <Compile Include="Assets\scripts\retiraVida.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="UnityEngine">

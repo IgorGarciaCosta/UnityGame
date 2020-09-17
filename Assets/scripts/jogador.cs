@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class jogador : MonoBehaviour
 {
+
+   
     public int vidaInicial = 100;
     public int vidaAtual;
     public int pontuacao;
-
-
     // Start is called before the first frame update
     void Start()
     {
